@@ -1,0 +1,89 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9; /* Very light green */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #004d00;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+}
+
+/* Section Titles */
+.section-title {
+    background-color: white;
+    color: darkgreen;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+/* Introduction Layout */
+.intro-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Image Upload */
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container img {
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+#imageUpload {
+    margin: 10px 0;
+}
+
+/* Content Layout */
+.content-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Vertical Icon Layout */
+.vertical-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Icon Styling */
+.icon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid darkgreen;
+    border-radius: 5px;
+    width: 200px;
+    transition: 0.3s;
+}
+
+.icon-box:hover {
+    background-color: lightgreen;
+}
+
+.icon-box i {
+    font-size: 24px;
+    color: darkgreen;
+}

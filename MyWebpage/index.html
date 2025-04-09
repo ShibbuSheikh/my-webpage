@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/YOUR-FONT-AWESOME-KIT.js" crossorigin="anonymous"></script>
+    
+        <style>
+          /* Trapezoid Style for Headers */
+          .trapezoid-header {
+            display: inline-block;
+            position: relative;
+            padding: 10px 20px;
+            background: #dff0d8;
+            margin-left: 20px;
+            font-weight: bold;
+            color: green;
+            clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+          }
+      
+          /* Image Preview Style */
+          #profilePreview {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            display: block;
+            margin-top: 10px;
+          }
+        </style>
+      
+</head>
+<body>
+
+    <header>
+        <h1>WELCOME TO MY WORLD</h1>
+    </header>
+
+    <!-- Introduction Section -->
+    <section class="intro box">
+        <h2 class="section-title">INTRODUCTION</h2>
+        <div class="intro-content">
+            <div class="image-container">
+                <input type="file" id="imageUpload" accept="image/*">
+                <img id="profileImage" src="images/default.png" alt="My Image">
+            </div>
+            <p>
+                "Passionate Mechanical Engineer with a strong foundation in heat and mass transfer, numerical analysis, and industrial system design. 
+                Experienced in railway technology, automation, and manufacturing processes. Skilled in Python for Engineering Simulations and analysis. 
+                Seeking opportunities to apply my technical expertise in automotive and automation industries. 
+                Eager to contribute innovative solutions and optimize engineering systems."
+            </p>
+        </div>
+    </section>
+
+    <!-- Horizontal Content Section -->
+    <section class="content">
+        <div class="content-row">
+            <!-- Qualifications -->
+            <div class="box">
+                <h2 class="section-title">QUALIFICATIONS</h2>
+                <div class="vertical-icons">
+                    <a href="files/high-school.pdf" target="_blank" class="icon-box">
+                        <i class="fas fa-file"></i>
+                        <span>High School Certificate</span>
+                    </a>
+                    <a href="files/senior-secondary.pdf" target="_blank" class="icon-box">
+                        <i class="fas fa-file"></i>
+                        <span>Senior Secondary Certificate</span>
+                    </a>
+                    <a href="files/bachelor-degree.pdf" target="_blank" class="icon-box">
+                        <i class="fas fa-file"></i>
+                        <span>Bachelor's Degree</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Training & Certificates -->
+            <div class="box">
+                <h2 class="section-title">TRAINING & CERTIFICATES</h2>
+                <div class="vertical-icons">
+                    <a href="files/bis-certificate.pdf" target="_blank" class="icon-box">
+                        <i class="fas fa-file"></i>
+                        <span>BIS Certificates</span>
+                    </a>
+                    <a href="files/railway-training.pdf" target="_blank" class="icon-box">
+                        <i class="fas fa-file"></i>
+                        <span>Railway Training Certificate</span>
+                    </a>
+                    <a href="files/meritorious-award.pdf" target="_blank" class="icon-box">
+                        <i class="fas fa-file"></i>
+                        <span>Meritorious Student Award</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="box">
+                <h2 class="section-title">SOCIAL LINKS</h2>
+                <div class="vertical-icons">
+                    <a href="https://www.linkedin.com/in/Shabbu Sheikh" target="_blank" class="icon-box">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://www.facebook.com/yourprofile" target="_blank" class="icon-box">
+                        <i class="fab fa-facebook"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="https://www.instagram.com/yourprofile" target="_blank" class="icon-box">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
